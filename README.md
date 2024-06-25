@@ -3,13 +3,6 @@ NetClock Server
 
 This module contains the server program for the ECE 4564 NetClock project.
 
-To the Project Team:
---------------------
-
-The skeleton for this project has been provided to you to save you some
-time effort and allow you to focus on those parts of the program that 
-involve new concepts.
-
 The server program is designed to run as a Python runnable module. As
 such, this directory contains an empty `__init__.py` and a `__main__.py`.
 In `__main__.py`, you'll find that an argument parser has been created
