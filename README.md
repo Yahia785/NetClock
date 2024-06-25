@@ -75,34 +75,6 @@ NetClock Client
 
 This module contains the client program for the ECE 4564 NetClock project.
 
-To the Project Team:
---------------------
-
-Another development team has created a cross-platform UI that simulates 
-the clock display that will be used in the product, as well as a simple 
-chronometer that keeps time based on an interval timer and a tick
-counter. The chronometer is reasonably accurate over relatively short
-time periods, but must be occasionally updated from a network date
-and time source in order to remain accurate over longer periods of time.
-
-In addition to the UI and chronometer, a `__main__.py` entry point has been
-provided that includes an argument parser, logging configuration, and the 
-setup for the main program.
-
-Your team will need to implement the ClockClient class using the stub
-provided in `client.py`. The client ClockClient class is responsible for
-registering with the server as a subscriber, periodically renewing the
-subscription, and processing the periodic date/time broadcasts from the
-server to update the chronometer. 
-
-See the comments in the file for the methods your client must implement 
-in order to interface with the main program. Review the project design 
-blueprint for additional guidance on how to implement your client 
-communication module for the clock.
-
-While your team doesn't need a detailed understanding of all the 
-components of the client program, you should familiarize yourselves with
-the location and basic purpose of each of the components provided to you.
 
 * `__main__.py` is the main entry point, which creates the component objects
   of the client program, starts the client communication module (which runs
